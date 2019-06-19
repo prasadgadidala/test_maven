@@ -1,0 +1,15 @@
+ Check for JAVA is there or not.[On command promt- java -version]
+
+2. If it is there then proceed to next step otherwise install jdk and set path on Windows environment variable.
+
+3. Download Apache Maven [Visit Maven official website]
+
+4. Add both M2_HOME and MAVEN_HOME variables in the Windows environment, and point it to your Maven folder.
+
+5. Add To PATH - Update PATH variable, append Maven bin folder – %M2_HOME%\bin, so that you can run the Maven’s command everywhere.
+
+5. Verification - Done, to verify it, run mvn –version in the command prompt.
+
+This kind of output will come -
+
+C:\Users\mkyong>mv...(more)
